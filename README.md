@@ -119,7 +119,7 @@ npm run watch (for developent)
 }
 
 .open .hamburger-middle {
-  display: none;  // this is hidden when the bottom is click  
+  display: none;  // this is hidden when the bottom is clicked  
 }
 
 .open .hamburger-bottom {
