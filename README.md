@@ -12,6 +12,7 @@
 
 ## USEFUL LINKS
 #### You may visit "https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5" to  enlighten and build upon your frontend skills by replicating already made themes.
+#### Project Link: https://landingpgetailwindcss.onrender.com
 
 
 ## Usage
