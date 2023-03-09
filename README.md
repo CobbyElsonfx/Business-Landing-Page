@@ -2,7 +2,7 @@
 
 ### <ins>Special thanks to Mr. Oliver Mensah</ins>
 #### This project was inspired by  traversymedia and Js mastery.
-##### I created this project mainly to showcase my understanding of tailwindcss. This project is a replica of a landing page i found on frontendmentor.com
+##### I created this project mainly to showcase my understanding of tailwindcss. This project is a replica of a landing page I found on frontendmentor.com
 # INTEGRATED CONTENT
 ### tailwindcss
 ### html
@@ -11,7 +11,7 @@
 
 
 ## USEFUL LINKS
-#### You may visit "https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5/hub" to  enlighten and build upon your frontend zskills by replicating already made themes.
+#### You may visit "https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5" to  enlighten and build upon your frontend skills by replicating already made themes.
 
 
 ## Usage
@@ -71,7 +71,7 @@ npm run watch (for developent)
 
 
 ```
-* Hamburger Menu */
+* CSS STYLING FOR THE HAMBURGER  */
 // target the hamburger class and set the properties as shown below
 .hamburger { .     
   cursor: pointer;   
@@ -106,18 +106,6 @@ npm run watch (for developent)
 //Note: the "open" class shows in the bottom tag upon buttom click and Jquery was used to achieve this. 
 
 
-```
-const btn = document.getElementById('menu-btn')
-const nav = document.getElementById('menu')
-
-btn.addEventListener('click', () => {
-  btn.classList.toggle('open')
-  nav.classList.toggle('flex')
-  nav.classList.toggle('hidden')
-})
-
-```
-
 
 .open {
   transform: rotate(90deg);
@@ -138,6 +126,23 @@ btn.addEventListener('click', () => {
     // rotates buttom rotates the hamburger-bottom by -45deg (where deg stands for degrees)
 
 }
+
+```
+
+
+
+/Note: the "open" class shows in the bottom tag upon buttom click and Jquery was used to achieve this. 
+
+
+```
+const btn = document.getElementById('menu-btn')
+const nav = document.getElementById('menu')
+
+btn.addEventListener('click', () => {
+  btn.classList.toggle('open')
+  nav.classList.toggle('flex')
+  nav.classList.toggle('hidden')
+})
 
 ```
 
